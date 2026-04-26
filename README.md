@@ -25,7 +25,6 @@ Autor: [@javierludena](https://github.com/javierludena)
 ├── index.html               # Landing autocontenida (CSS + JS inline)
 ├── assets/javierludena.png  # Avatar
 ├── .nojekyll                # Para que GitHub Pages no procese con Jekyll
-├── .github/workflows/       # Despliegue automático en GitHub Pages
 └── README.md
 ```
 
@@ -49,23 +48,9 @@ python3 -m http.server 8000
 
 ## Despliegue en GitHub Pages
 
-Hay dos formas — elige una:
-
-### Opción A · Automática con GitHub Actions (recomendada)
-
-Ya está configurada en `.github/workflows/deploy.yml`. Solo tienes que:
-
-1. Sube el repo a GitHub.
-2. **Settings → Pages → Source:** *GitHub Actions*.
-3. Cada `push` a `main` desplegará automáticamente.
-
-URL final: `https://javierludena.github.io/<repo>/`.
-
-### Opción B · Deploy from a branch
-
-1. Sube el repo a GitHub.
-2. **Settings → Pages → Source:** *Deploy from a branch*.
-3. **Branch:** `main`, **Folder:** `/ (root)`.
+1. **Settings → Pages → Source:** *Deploy from a branch*.
+2. **Branch:** `main`, **Folder:** `/ (root)`.
+3. **Save**. En 1-2 minutos la web estará en `https://javierludena.github.io/<repo>/`.
 
 El archivo `.nojekyll` evita que GitHub intente procesar el repo con Jekyll.
 
