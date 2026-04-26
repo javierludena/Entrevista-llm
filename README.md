@@ -48,16 +48,7 @@ python3 -m http.server 8000
 
 ## Despliegue en GitHub Pages
 
-1. **Settings → Pages → Source:** *Deploy from a branch*.
-2. **Branch:** `main`, **Folder:** `/ (root)`.
-3. **Save**. En 1-2 minutos la web estará en `https://javierludena.github.io/<repo>/`.
-
 El archivo `.nojekyll` evita que GitHub intente procesar el repo con Jekyll.
-
-## Artículo en LinkedIn
-
-Acompaña a este repo un artículo en LinkedIn con explicaciones más extendidas:
-👉 [Próximamente — añade aquí el enlace al artículo]
 
 ## Contribuir
 
