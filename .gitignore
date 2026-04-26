@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+*.log
+
+# Claude Code local settings
+.claude/
+
+# Local extraction (no necesario en repo)
+design-extract/
+design.tar.gz
